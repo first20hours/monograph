@@ -1,8 +1,6 @@
 heroku-jekyll-blog
 ==================
 
-![heroku-jekyll-blog](http://media.eurekaoverdrive.com/img/jekyll-screenshot.png)
-
 This repo contains a basic template for an SEO-friendly two-column blog-style website using the [jekyll](http://jekyllrb.com/) static website generator. The template is ready for customization and deployment on [Heroku's](http://www.heroku.com) Bamboo stack. Includes sane defaults for page caching, keywords, and canonical URLs.
 
 Setup Instructions

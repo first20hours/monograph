@@ -1,7 +1,7 @@
 heroku-jekyll-blog
 ==================
 
-This repo contains a template for an SEO-friendly two-column blog-style website using the jekyll static website generator. The template is ready for customization and deployment on Heroku's Bamboo stack.
+This repo contains a template for an SEO-friendly two-column blog-style website using the [jekyll](https://github.com/mojombo/jekyll) static website generator. The template is ready for customization and deployment on [Heroku's](http://www.heroku.com) Bamboo stack. Includes sane defaults for page caching, keywords, and canonical URLs.
 
 Setup Instructions
 ------------------
@@ -10,7 +10,7 @@ Clone the repo:
 
     $ git clone git@github.com:eurekaoverdrive/heroku-jekyll-blog.git
     
-Install all required Gems
+Navigate to the new directory and install all required Gems
 
     $ bundle install
 
@@ -53,7 +53,7 @@ When you're ready to publish, move the file into the "_posts" folder.
 
 **Preview the website locally on your computer:**
 
-    $ rake draft["Post Title"]
+    $ rake dev
     
 This command runs <code>jekyll --server --auto</code>, which allows you to preview the site at http://localhost:5000.
 

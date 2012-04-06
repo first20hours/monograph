@@ -1,0 +1,50 @@
+---
+rooturl: {{ site.base_url }}
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+      <loc>{{ site.base_url }}</loc>
+      <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1</priority>
+   </url>
+   <url>
+      <loc>{{ site.base_url }}/about/</loc>
+      <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1</priority>
+   </url>
+   <url>
+      <loc>{{ site.base_url }}/contact/</loc>
+      <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1</priority>
+   </url>
+   <url>
+      <loc>{{ site.base_url }}/privacy/</loc>
+      <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1</priority>
+   </url>
+   <url>
+      <loc>{{ site.base_url }}/disclosures/</loc>
+      <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1</priority>
+   </url>
+   <url>
+      <loc>{{ site.base_url }}/blog/</loc>
+      <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1</priority>
+   </url>
+{% for post in site.posts %}
+   <url>
+      <loc>{{ page.rooturl }}{{ post.url }}</loc>
+      <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+{% endfor %}
+</urlset>

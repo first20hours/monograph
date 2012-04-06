@@ -1,0 +1,17 @@
+markdown: rdiscount
+pygments: no
+permalink: /:title/
+
+source:      .
+destination: ./_site
+includes:    ./_includes
+plugins:     ./_plugins
+
+base_url: /
+main_title: "Title"
+main_description: "Description"
+main_keywords: "Keyword"
+author: "Author"
+copyright: "20XX"
+
+exclude: ['application.rb', 'config.ru', 'Rakefile', 'Gemfile', 'Gemfile.lock', 'public', 'tmp']

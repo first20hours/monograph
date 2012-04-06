@@ -1,0 +1,23 @@
+---
+layout: blog
+title: Blog
+permalink: /blog/
+---
+
+<div id="blog-archive">
+{% capture post_year1 %}{% endcapture %}
+<h2>{{ post_year1 }}</h2>
+<ul class="post-list">
+{% for post in site.categories["blog"] %}
+{% capture post_year2 %}{{ post.date | date: '%Y' }}{% endcapture %}
+{% if post_year1 != post_year2 %}
+{% assign post_year1 = post_year2 %}
+</ul>
+<h2>{{ post_year1 }}</h2>
+<ul class="post-list">
+{% endif %}
+<li><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%d %b %Y' }}</time>
+<a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+</div>

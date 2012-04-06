@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Title</title>
+    <link>/</link>
+    <atom:link href="//feed/" rel="self" type="application/rss+xml" />
+    <description>Description</description>
+    <language>en-us</language>
+    <pubDate>Fri, 06 Apr 2012 14:31:28 -0600</pubDate>
+    <lastBuildDate>Fri, 06 Apr 2012 14:31:28 -0600</lastBuildDate>
+
+    
+    <item>
+      <title>Blog Post 2012</title>
+      <link>//blog-post-2012/</link>
+      <pubDate>Fri, 06 Apr 2012 08:26:14 -0600</pubDate>
+      <author>Author</author>
+      <guid>//blog-post</guid>
+      <description>&lt;p&gt;This is a blog post.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Blog Post 2011</title>
+      <link>//blog-post-2011/</link>
+      <pubDate>Wed, 06 Apr 2011 08:26:14 -0600</pubDate>
+      <author>Author</author>
+      <guid>//blog-post</guid>
+      <description>&lt;p&gt;This is a blog post.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Blog Post 2010</title>
+      <link>//blog-post-2010/</link>
+      <pubDate>Tue, 06 Apr 2010 08:26:14 -0600</pubDate>
+      <author>Author</author>
+      <guid>//blog-post</guid>
+      <description>&lt;p&gt;This is a blog post.&lt;/p&gt;
+</description>
+    </item>
+    
+
+  </channel> 
+</rss>
